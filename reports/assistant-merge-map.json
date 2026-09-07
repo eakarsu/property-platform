@@ -1,0 +1,1618 @@
+[
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "calendar",
+      "lease-ingestion",
+      "clause-abstraction",
+      "effective-rules",
+      "statement-ingestion",
+      "occupancy-registry",
+      "exclusion-testing",
+      "capital-treatment",
+      "tenant-claim",
+      "landlord-response",
+      "recovery-analytics",
+      "vendor-contract-library",
+      "location-asset-registry",
+      "work-order-ingestion",
+      "response-time-calculation",
+      "resolution-time-calculation",
+      "uptime-calculation",
+      "vendor-claim-package",
+      "dispute-workflow",
+      "location-vendor-analytics",
+      "property-asset-registry",
+      "arrival-completion-tracking",
+      "sla-response-monitoring",
+      "manager-approval",
+      "vendor-dispute-workflow",
+      "property-vendor-analytics",
+      "agreement-library",
+      "property-transaction-registry",
+      "closing-statement-ingestion",
+      "agent-split-calculation",
+      "team-referral-allocation",
+      "cap-threshold-monitoring",
+      "agent-dispute-workflow",
+      "office-agent-profitability",
+      "lease-amendment-library",
+      "allowance-definition-extraction",
+      "premises-project-registry",
+      "lien-waiver-collection",
+      "completion-milestone-tracking",
+      "landlord-approval-conditions",
+      "draw-package-generation",
+      "information-request-workflow",
+      "portfolio-recovery-analytics",
+      "parcel-appraisal",
+      "deed-interest-extraction",
+      "appraisal-comparison-brief",
+      "negotiation-preparation",
+      "agreement-clause-gap-review",
+      "recording-packet-checklist",
+      "acquisition-progress-narrative",
+      "compare",
+      "lab",
+      "alerts",
+      "usage-analytics",
+      "event-suggestions",
+      "custom-tools",
+      "new-tools",
+      "conflict-resolution-scheduler",
+      "facility-health-dashboard",
+      "resource-sharing-marketplace",
+      "maintenance",
+      "maintenance-cleaning-parking-storage-phonebooths-lack-ai-end",
+      "architectural",
+      "violation-enforcement-advisor",
+      "reserve-study-projector",
+      "chat",
+      "conflict",
+      "event",
+      "sustainability",
+      "decision",
+      "before-after",
+      "market-analytics",
+      "suggestions",
+      "staging-suggestions",
+      "furniture-placement",
+      "curb-appeal",
+      "color-palette",
+      "seasonal-staging",
+      "roi-calculator",
+      "vendor-matcher",
+      "listing-generator",
+      "photo-staging",
+      "valuation-impact",
+      "neighborhood-strategy",
+      "project-planner",
+      "checklist-generator",
+      "decluttering-guide",
+      "renovation-advisor",
+      "virtual-staging",
+      "buyer-persona-targeting",
+      "furniture-planner",
+      "listing-copy",
+      "roi-simulator",
+      "utilization-opportunity-finder",
+      "real-estate-arbitrage",
+      "code",
+      "ai-plan-pre-screening",
+      "zoning-assistant-chatbot",
+      "aiproperty-valuation-agent",
+      "property-matcher",
+      "listing-description",
+      "social-post",
+      "buyer-persona",
+      "virtual-tour-creator",
+      "tenant-screener",
+      "mortgage-calculator",
+      "investment-property-finder",
+      "property-appraiser",
+      "open-house-summary",
+      "buyer-journey-personalization"
+    ],
+    "ai": true,
+    "representativeId": "calendar",
+    "description": "One assistant for 110 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "calendar",
+        "title": "Calendar",
+        "originalPath": "/features/calendar"
+      },
+      {
+        "id": "lease-ingestion",
+        "title": "Lease & Amendment Ingestion",
+        "originalPath": "/features/lease-ingestion"
+      },
+      {
+        "id": "clause-abstraction",
+        "title": "CAM Clause Abstraction",
+        "originalPath": "/features/clause-abstraction"
+      },
+      {
+        "id": "effective-rules",
+        "title": "Effective-Dated Lease Rules",
+        "originalPath": "/features/effective-rules"
+      },
+      {
+        "id": "statement-ingestion",
+        "title": "Landlord Statement Ingestion",
+        "originalPath": "/features/statement-ingestion"
+      },
+      {
+        "id": "occupancy-registry",
+        "title": "Property & Occupancy Registry",
+        "originalPath": "/features/occupancy-registry"
+      },
+      {
+        "id": "exclusion-testing",
+        "title": "Contractual Exclusion Testing",
+        "originalPath": "/features/exclusion-testing"
+      },
+      {
+        "id": "capital-treatment",
+        "title": "Capital-Expense Treatment",
+        "originalPath": "/features/capital-treatment"
+      },
+      {
+        "id": "tenant-claim",
+        "title": "Tenant Claim Package",
+        "originalPath": "/features/tenant-claim"
+      },
+      {
+        "id": "landlord-response",
+        "title": "Landlord Response & Negotiation",
+        "originalPath": "/features/landlord-response"
+      },
+      {
+        "id": "recovery-analytics",
+        "title": "Recovery Ledger & Portfolio Analytics",
+        "originalPath": "/features/recovery-analytics"
+      },
+      {
+        "id": "vendor-contract-library",
+        "title": "Vendor contract library",
+        "originalPath": "/features/vendor-contract-library"
+      },
+      {
+        "id": "location-asset-registry",
+        "title": "Location asset registry",
+        "originalPath": "/features/location-asset-registry"
+      },
+      {
+        "id": "work-order-ingestion",
+        "title": "Work order ingestion",
+        "originalPath": "/features/work-order-ingestion"
+      },
+      {
+        "id": "response-time-calculation",
+        "title": "Response time calculation",
+        "originalPath": "/features/response-time-calculation"
+      },
+      {
+        "id": "resolution-time-calculation",
+        "title": "Resolution time calculation",
+        "originalPath": "/features/resolution-time-calculation"
+      },
+      {
+        "id": "uptime-calculation",
+        "title": "Uptime calculation",
+        "originalPath": "/features/uptime-calculation"
+      },
+      {
+        "id": "vendor-claim-package",
+        "title": "Vendor claim package",
+        "originalPath": "/features/vendor-claim-package"
+      },
+      {
+        "id": "dispute-workflow",
+        "title": "Dispute workflow",
+        "originalPath": "/features/dispute-workflow"
+      },
+      {
+        "id": "location-vendor-analytics",
+        "title": "Location vendor analytics",
+        "originalPath": "/features/location-vendor-analytics"
+      },
+      {
+        "id": "property-asset-registry",
+        "title": "Property asset registry",
+        "originalPath": "/features/property-asset-registry"
+      },
+      {
+        "id": "arrival-completion-tracking",
+        "title": "Arrival completion tracking",
+        "originalPath": "/features/arrival-completion-tracking"
+      },
+      {
+        "id": "sla-response-monitoring",
+        "title": "SLA response monitoring",
+        "originalPath": "/features/sla-response-monitoring"
+      },
+      {
+        "id": "manager-approval",
+        "title": "Manager approval",
+        "originalPath": "/features/manager-approval"
+      },
+      {
+        "id": "vendor-dispute-workflow",
+        "title": "Vendor dispute workflow",
+        "originalPath": "/features/vendor-dispute-workflow"
+      },
+      {
+        "id": "property-vendor-analytics",
+        "title": "Property vendor analytics",
+        "originalPath": "/features/property-vendor-analytics"
+      },
+      {
+        "id": "agreement-library",
+        "title": "Agreement library",
+        "originalPath": "/features/agreement-library"
+      },
+      {
+        "id": "property-transaction-registry",
+        "title": "Property transaction registry",
+        "originalPath": "/features/property-transaction-registry"
+      },
+      {
+        "id": "closing-statement-ingestion",
+        "title": "Closing statement ingestion",
+        "originalPath": "/features/closing-statement-ingestion"
+      },
+      {
+        "id": "agent-split-calculation",
+        "title": "Agent split calculation",
+        "originalPath": "/features/agent-split-calculation"
+      },
+      {
+        "id": "team-referral-allocation",
+        "title": "Team referral allocation",
+        "originalPath": "/features/team-referral-allocation"
+      },
+      {
+        "id": "cap-threshold-monitoring",
+        "title": "Cap threshold monitoring",
+        "originalPath": "/features/cap-threshold-monitoring"
+      },
+      {
+        "id": "agent-dispute-workflow",
+        "title": "Agent dispute workflow",
+        "originalPath": "/features/agent-dispute-workflow"
+      },
+      {
+        "id": "office-agent-profitability",
+        "title": "Office agent profitability",
+        "originalPath": "/features/office-agent-profitability"
+      },
+      {
+        "id": "lease-amendment-library",
+        "title": "Lease amendment library",
+        "originalPath": "/features/lease-amendment-library"
+      },
+      {
+        "id": "allowance-definition-extraction",
+        "title": "Allowance definition extraction",
+        "originalPath": "/features/allowance-definition-extraction"
+      },
+      {
+        "id": "premises-project-registry",
+        "title": "Premises project registry",
+        "originalPath": "/features/premises-project-registry"
+      },
+      {
+        "id": "lien-waiver-collection",
+        "title": "Lien waiver collection",
+        "originalPath": "/features/lien-waiver-collection"
+      },
+      {
+        "id": "completion-milestone-tracking",
+        "title": "Completion milestone tracking",
+        "originalPath": "/features/completion-milestone-tracking"
+      },
+      {
+        "id": "landlord-approval-conditions",
+        "title": "Landlord approval conditions",
+        "originalPath": "/features/landlord-approval-conditions"
+      },
+      {
+        "id": "draw-package-generation",
+        "title": "Draw package generation",
+        "originalPath": "/features/draw-package-generation"
+      },
+      {
+        "id": "information-request-workflow",
+        "title": "Information request workflow",
+        "originalPath": "/features/information-request-workflow"
+      },
+      {
+        "id": "portfolio-recovery-analytics",
+        "title": "Portfolio recovery analytics",
+        "originalPath": "/features/portfolio-recovery-analytics"
+      },
+      {
+        "id": "parcel-appraisal",
+        "title": "Parcel Appraisal",
+        "originalPath": "/features/parcel-appraisal"
+      },
+      {
+        "id": "deed-interest-extraction",
+        "title": "Deed interest extraction",
+        "originalPath": "/features/deed-interest-extraction"
+      },
+      {
+        "id": "appraisal-comparison-brief",
+        "title": "Appraisal comparison brief",
+        "originalPath": "/features/appraisal-comparison-brief"
+      },
+      {
+        "id": "negotiation-preparation",
+        "title": "Negotiation preparation",
+        "originalPath": "/features/negotiation-preparation"
+      },
+      {
+        "id": "agreement-clause-gap-review",
+        "title": "Agreement clause gap review",
+        "originalPath": "/features/agreement-clause-gap-review"
+      },
+      {
+        "id": "recording-packet-checklist",
+        "title": "Recording packet checklist",
+        "originalPath": "/features/recording-packet-checklist"
+      },
+      {
+        "id": "acquisition-progress-narrative",
+        "title": "Acquisition progress narrative",
+        "originalPath": "/features/acquisition-progress-narrative"
+      },
+      {
+        "id": "compare",
+        "title": "Lease Comparison",
+        "originalPath": "/features/compare"
+      },
+      {
+        "id": "lab",
+        "title": "AI Lab",
+        "originalPath": "/features/lab"
+      },
+      {
+        "id": "alerts",
+        "title": "Alerts & iCal",
+        "originalPath": "/features/alerts"
+      },
+      {
+        "id": "usage-analytics",
+        "title": "Usage Analytics",
+        "originalPath": "/features/usage-analytics"
+      },
+      {
+        "id": "event-suggestions",
+        "title": "AI Event Suggestions",
+        "originalPath": "/features/event-suggestions"
+      },
+      {
+        "id": "custom-tools",
+        "title": "AI Custom Tools (7 new)",
+        "originalPath": "/features/custom-tools"
+      },
+      {
+        "id": "new-tools",
+        "title": "AI New Tools (Maintenance & Cleaning)",
+        "originalPath": "/features/new-tools"
+      },
+      {
+        "id": "conflict-resolution-scheduler",
+        "title": "Conflict Resolution",
+        "originalPath": "/features/conflict-resolution-scheduler"
+      },
+      {
+        "id": "facility-health-dashboard",
+        "title": "Facility Health",
+        "originalPath": "/features/facility-health-dashboard"
+      },
+      {
+        "id": "resource-sharing-marketplace",
+        "title": "Resource Marketplace",
+        "originalPath": "/features/resource-sharing-marketplace"
+      },
+      {
+        "id": "maintenance",
+        "title": "Maintenance",
+        "originalPath": "/features/maintenance"
+      },
+      {
+        "id": "maintenance-cleaning-parking-storage-phonebooths-lack-ai-end",
+        "title": "Maintenance cleaning parking storage phonebooths lack ai end",
+        "originalPath": "/features/maintenance-cleaning-parking-storage-phonebooths-lack-ai-end"
+      },
+      {
+        "id": "architectural",
+        "title": "Architectural",
+        "originalPath": "/features/architectural"
+      },
+      {
+        "id": "violation-enforcement-advisor",
+        "title": "Violation Enforcement Advisor",
+        "originalPath": "/features/violation-enforcement-advisor"
+      },
+      {
+        "id": "reserve-study-projector",
+        "title": "Reserve Study Projector",
+        "originalPath": "/features/reserve-study-projector"
+      },
+      {
+        "id": "chat",
+        "title": "AI HOA Assistant",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "conflict",
+        "title": "AI Conflict Resolution",
+        "originalPath": "/features/conflict"
+      },
+      {
+        "id": "event",
+        "title": "AI Event Planner",
+        "originalPath": "/features/event"
+      },
+      {
+        "id": "sustainability",
+        "title": "AI Sustainability Advisor",
+        "originalPath": "/features/sustainability"
+      },
+      {
+        "id": "decision",
+        "title": "AI Board Decision Helper",
+        "originalPath": "/features/decision"
+      },
+      {
+        "id": "before-after",
+        "title": "Before after",
+        "originalPath": "/features/before-after"
+      },
+      {
+        "id": "market-analytics",
+        "title": "Market analytics",
+        "originalPath": "/features/market-analytics"
+      },
+      {
+        "id": "suggestions",
+        "title": "Suggestions",
+        "originalPath": "/features/suggestions"
+      },
+      {
+        "id": "staging-suggestions",
+        "title": "Staging suggestions",
+        "originalPath": "/features/staging-suggestions"
+      },
+      {
+        "id": "furniture-placement",
+        "title": "Furniture placement",
+        "originalPath": "/features/furniture-placement"
+      },
+      {
+        "id": "curb-appeal",
+        "title": "Curb appeal",
+        "originalPath": "/features/curb-appeal"
+      },
+      {
+        "id": "color-palette",
+        "title": "Color palette",
+        "originalPath": "/features/color-palette"
+      },
+      {
+        "id": "seasonal-staging",
+        "title": "Seasonal staging",
+        "originalPath": "/features/seasonal-staging"
+      },
+      {
+        "id": "roi-calculator",
+        "title": "Roi calculator",
+        "originalPath": "/features/roi-calculator"
+      },
+      {
+        "id": "vendor-matcher",
+        "title": "Vendor matcher",
+        "originalPath": "/features/vendor-matcher"
+      },
+      {
+        "id": "listing-generator",
+        "title": "Listing generator",
+        "originalPath": "/features/listing-generator"
+      },
+      {
+        "id": "photo-staging",
+        "title": "Photo staging",
+        "originalPath": "/features/photo-staging"
+      },
+      {
+        "id": "valuation-impact",
+        "title": "Valuation impact",
+        "originalPath": "/features/valuation-impact"
+      },
+      {
+        "id": "neighborhood-strategy",
+        "title": "Neighborhood strategy",
+        "originalPath": "/features/neighborhood-strategy"
+      },
+      {
+        "id": "project-planner",
+        "title": "Project planner",
+        "originalPath": "/features/project-planner"
+      },
+      {
+        "id": "checklist-generator",
+        "title": "Checklist generator",
+        "originalPath": "/features/checklist-generator"
+      },
+      {
+        "id": "decluttering-guide",
+        "title": "Decluttering guide",
+        "originalPath": "/features/decluttering-guide"
+      },
+      {
+        "id": "renovation-advisor",
+        "title": "Renovation advisor",
+        "originalPath": "/features/renovation-advisor"
+      },
+      {
+        "id": "virtual-staging",
+        "title": "Virtual staging",
+        "originalPath": "/features/virtual-staging"
+      },
+      {
+        "id": "buyer-persona-targeting",
+        "title": "Buyer persona targeting",
+        "originalPath": "/features/buyer-persona-targeting"
+      },
+      {
+        "id": "furniture-planner",
+        "title": "Furniture planner",
+        "originalPath": "/features/furniture-planner"
+      },
+      {
+        "id": "listing-copy",
+        "title": "Listing copy",
+        "originalPath": "/features/listing-copy"
+      },
+      {
+        "id": "roi-simulator",
+        "title": "Roi simulator",
+        "originalPath": "/features/roi-simulator"
+      },
+      {
+        "id": "utilization-opportunity-finder",
+        "title": "Utilization Opportunity Finder",
+        "originalPath": "/features/utilization-opportunity-finder"
+      },
+      {
+        "id": "real-estate-arbitrage",
+        "title": "Real-Estate Arbitrage",
+        "originalPath": "/features/real-estate-arbitrage"
+      },
+      {
+        "id": "code",
+        "title": "Code Interpretation Assistant",
+        "originalPath": "/features/code"
+      },
+      {
+        "id": "ai-plan-pre-screening",
+        "title": "ai plan pre screening",
+        "originalPath": "/features/ai-plan-pre-screening"
+      },
+      {
+        "id": "zoning-assistant-chatbot",
+        "title": "zoning assistant chatbot",
+        "originalPath": "/features/zoning-assistant-chatbot"
+      },
+      {
+        "id": "aiproperty-valuation-agent",
+        "title": "Property valuation agent work",
+        "originalPath": "/features/aiproperty-valuation-agent"
+      },
+      {
+        "id": "property-matcher",
+        "title": "Property Matcher",
+        "originalPath": "/features/property-matcher"
+      },
+      {
+        "id": "listing-description",
+        "title": "Listing Description",
+        "originalPath": "/features/listing-description"
+      },
+      {
+        "id": "social-post",
+        "title": "Social Post Generator",
+        "originalPath": "/features/social-post"
+      },
+      {
+        "id": "buyer-persona",
+        "title": "Buyer Persona Generator",
+        "originalPath": "/features/buyer-persona"
+      },
+      {
+        "id": "virtual-tour-creator",
+        "title": "Virtual Tour Creator",
+        "originalPath": "/features/virtual-tour-creator"
+      },
+      {
+        "id": "tenant-screener",
+        "title": "Tenant Screener",
+        "originalPath": "/features/tenant-screener"
+      },
+      {
+        "id": "mortgage-calculator",
+        "title": "Mortgage Calculator Pro",
+        "originalPath": "/features/mortgage-calculator"
+      },
+      {
+        "id": "investment-property-finder",
+        "title": "Investment Property Finder",
+        "originalPath": "/features/investment-property-finder"
+      },
+      {
+        "id": "property-appraiser",
+        "title": "AI Real Estate Appraiser",
+        "originalPath": "/features/property-appraiser"
+      },
+      {
+        "id": "open-house-summary",
+        "title": "Open House Summary",
+        "originalPath": "/features/open-house-summary"
+      },
+      {
+        "id": "buyer-journey-personalization",
+        "title": "Buyer Journey Personalization",
+        "originalPath": "/features/buyer-journey-personalization"
+      }
+    ]
+  },
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "curative-plan",
+      "wire-verify",
+      "closing-summary",
+      "operations-handoff-draft",
+      "newsletter",
+      "client-proposal",
+      "securityalertanalysis-cameraalarm-summari",
+      "follow-up-sequence"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "curative-plan",
+        "title": "Draft: Curative Planner",
+        "originalPath": "/features/curative-plan"
+      },
+      {
+        "id": "wire-verify",
+        "title": "Draft: Wire Fraud Analyzer",
+        "originalPath": "/features/wire-verify"
+      },
+      {
+        "id": "closing-summary",
+        "title": "Draft: Closing Summary Drafter",
+        "originalPath": "/features/closing-summary"
+      },
+      {
+        "id": "operations-handoff-draft",
+        "title": "Operations handoff draft",
+        "originalPath": "/features/operations-handoff-draft"
+      },
+      {
+        "id": "newsletter",
+        "title": "AI Newsletter Generator",
+        "originalPath": "/features/newsletter"
+      },
+      {
+        "id": "client-proposal",
+        "title": "Client proposal",
+        "originalPath": "/features/client-proposal"
+      },
+      {
+        "id": "securityalertanalysis-cameraalarm-summari",
+        "title": "securityalertanalysis cameraalarm summari",
+        "originalPath": "/features/securityalertanalysis-cameraalarm-summari"
+      },
+      {
+        "id": "follow-up-sequence",
+        "title": "Email Sequence Generator",
+        "originalPath": "/features/follow-up-sequence"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "pro-rata",
+      "expense-eligibility",
+      "expense-cap",
+      "gross-up",
+      "evidence-requests",
+      "audit-calendar",
+      "preventive-maintenance-compliance",
+      "exclusion-validation",
+      "preventive-maintenance-validation",
+      "labor-rate-audit",
+      "material-rate-audit",
+      "co-broker-split-validation",
+      "submission-deadline-control",
+      "evidence-completeness-review",
+      "audit-trail",
+      "accesscontrol-checkins-lack-ai-anomaly-detection",
+      "architectural-compliance-scanner",
+      "assessment-audit",
+      "policy",
+      "legal",
+      "property-assessment-fairness-audit",
+      "compliance-checker"
+    ],
+    "ai": true,
+    "representativeId": "pro-rata",
+    "description": "One assistant for 22 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "pro-rata",
+        "title": "Pro-Rata Share Validation",
+        "originalPath": "/features/pro-rata"
+      },
+      {
+        "id": "expense-eligibility",
+        "title": "Expense Eligibility Classification",
+        "originalPath": "/features/expense-eligibility"
+      },
+      {
+        "id": "expense-cap",
+        "title": "Controllable-Expense Cap",
+        "originalPath": "/features/expense-cap"
+      },
+      {
+        "id": "gross-up",
+        "title": "Gross-Up & Occupancy Validation",
+        "originalPath": "/features/gross-up"
+      },
+      {
+        "id": "evidence-requests",
+        "title": "Landlord Evidence Requests",
+        "originalPath": "/features/evidence-requests"
+      },
+      {
+        "id": "audit-calendar",
+        "title": "Audit-Rights & Deadline Calendar",
+        "originalPath": "/features/audit-calendar"
+      },
+      {
+        "id": "preventive-maintenance-compliance",
+        "title": "Preventive maintenance compliance",
+        "originalPath": "/features/preventive-maintenance-compliance"
+      },
+      {
+        "id": "exclusion-validation",
+        "title": "Exclusion validation",
+        "originalPath": "/features/exclusion-validation"
+      },
+      {
+        "id": "preventive-maintenance-validation",
+        "title": "Preventive maintenance validation",
+        "originalPath": "/features/preventive-maintenance-validation"
+      },
+      {
+        "id": "labor-rate-audit",
+        "title": "Labor rate audit",
+        "originalPath": "/features/labor-rate-audit"
+      },
+      {
+        "id": "material-rate-audit",
+        "title": "Material rate audit",
+        "originalPath": "/features/material-rate-audit"
+      },
+      {
+        "id": "co-broker-split-validation",
+        "title": "Co-broker split validation",
+        "originalPath": "/features/co-broker-split-validation"
+      },
+      {
+        "id": "submission-deadline-control",
+        "title": "Submission deadline control",
+        "originalPath": "/features/submission-deadline-control"
+      },
+      {
+        "id": "evidence-completeness-review",
+        "title": "Evidence completeness review",
+        "originalPath": "/features/evidence-completeness-review"
+      },
+      {
+        "id": "audit-trail",
+        "title": "Audit Trail",
+        "originalPath": "/features/audit-trail"
+      },
+      {
+        "id": "accesscontrol-checkins-lack-ai-anomaly-detection",
+        "title": "Accesscontrol checkins lack ai anomaly detection",
+        "originalPath": "/features/accesscontrol-checkins-lack-ai-anomaly-detection"
+      },
+      {
+        "id": "architectural-compliance-scanner",
+        "title": "Architectural Compliance Scanner",
+        "originalPath": "/features/architectural-compliance-scanner"
+      },
+      {
+        "id": "assessment-audit",
+        "title": "Assessment Fairness Audit (Pass 5)",
+        "originalPath": "/features/assessment-audit"
+      },
+      {
+        "id": "policy",
+        "title": "AI Policy Generator",
+        "originalPath": "/features/policy"
+      },
+      {
+        "id": "legal",
+        "title": "AI Legal Compliance",
+        "originalPath": "/features/legal"
+      },
+      {
+        "id": "property-assessment-fairness-audit",
+        "title": "property assessment fairness audit",
+        "originalPath": "/features/property-assessment-fairness-audit"
+      },
+      {
+        "id": "compliance-checker",
+        "title": "Compliance Checker",
+        "originalPath": "/features/compliance-checker"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "base-year",
+      "admin-fees",
+      "tax-insurance",
+      "sla-credit-calculation",
+      "invoice-credit-reconciliation",
+      "trip-emergency-fee-validation",
+      "duplicate-work-order-billing",
+      "service-credit-calculation",
+      "invoice-matching",
+      "gross-commission-calculation",
+      "franchise-desk-fee-audit",
+      "lease-renewal-commission",
+      "contingent-payment-tracking",
+      "closing-cash-reconciliation",
+      "commission-statements",
+      "eligible-cost-classification",
+      "contractor-invoice-evidence",
+      "reimbursement-tracking",
+      "calculators",
+      "pricing-recommendations",
+      "revenue-forecasting",
+      "pricing",
+      "pricing-calculator",
+      "budget-estimator",
+      "agent-commission-optimizer-with-performa",
+      "pricing-recommendation",
+      "demand-forecasting-dynamic-pricing-for-s",
+      "pricing-recommender-for-underutilized",
+      "revenue",
+      "price-predictor",
+      "rental-price-optimizer",
+      "commission-forecasting"
+    ],
+    "ai": true,
+    "representativeId": "base-year",
+    "description": "One assistant for 32 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "base-year",
+        "title": "Base-Year & Expense-Stop Reconciliation",
+        "originalPath": "/features/base-year"
+      },
+      {
+        "id": "admin-fees",
+        "title": "Administrative & Management Fee Validation",
+        "originalPath": "/features/admin-fees"
+      },
+      {
+        "id": "tax-insurance",
+        "title": "Tax & Insurance Pass-Through Review",
+        "originalPath": "/features/tax-insurance"
+      },
+      {
+        "id": "sla-credit-calculation",
+        "title": "SLA credit calculation",
+        "originalPath": "/features/sla-credit-calculation"
+      },
+      {
+        "id": "invoice-credit-reconciliation",
+        "title": "Invoice credit reconciliation",
+        "originalPath": "/features/invoice-credit-reconciliation"
+      },
+      {
+        "id": "trip-emergency-fee-validation",
+        "title": "Trip emergency fee validation",
+        "originalPath": "/features/trip-emergency-fee-validation"
+      },
+      {
+        "id": "duplicate-work-order-billing",
+        "title": "Duplicate work-order billing",
+        "originalPath": "/features/duplicate-work-order-billing"
+      },
+      {
+        "id": "service-credit-calculation",
+        "title": "Service credit calculation",
+        "originalPath": "/features/service-credit-calculation"
+      },
+      {
+        "id": "invoice-matching",
+        "title": "Invoice matching",
+        "originalPath": "/features/invoice-matching"
+      },
+      {
+        "id": "gross-commission-calculation",
+        "title": "Gross commission calculation",
+        "originalPath": "/features/gross-commission-calculation"
+      },
+      {
+        "id": "franchise-desk-fee-audit",
+        "title": "Franchise desk fee audit",
+        "originalPath": "/features/franchise-desk-fee-audit"
+      },
+      {
+        "id": "lease-renewal-commission",
+        "title": "Lease renewal commission",
+        "originalPath": "/features/lease-renewal-commission"
+      },
+      {
+        "id": "contingent-payment-tracking",
+        "title": "Contingent payment tracking",
+        "originalPath": "/features/contingent-payment-tracking"
+      },
+      {
+        "id": "closing-cash-reconciliation",
+        "title": "Closing cash reconciliation",
+        "originalPath": "/features/closing-cash-reconciliation"
+      },
+      {
+        "id": "commission-statements",
+        "title": "Commission statements",
+        "originalPath": "/features/commission-statements"
+      },
+      {
+        "id": "eligible-cost-classification",
+        "title": "Eligible cost classification",
+        "originalPath": "/features/eligible-cost-classification"
+      },
+      {
+        "id": "contractor-invoice-evidence",
+        "title": "Contractor invoice evidence",
+        "originalPath": "/features/contractor-invoice-evidence"
+      },
+      {
+        "id": "reimbursement-tracking",
+        "title": "Reimbursement tracking",
+        "originalPath": "/features/reimbursement-tracking"
+      },
+      {
+        "id": "calculators",
+        "title": "Financial Calculators",
+        "originalPath": "/features/calculators"
+      },
+      {
+        "id": "pricing-recommendations",
+        "title": "AI Pricing Recommendations",
+        "originalPath": "/features/pricing-recommendations"
+      },
+      {
+        "id": "revenue-forecasting",
+        "title": "Revenue Forecasting",
+        "originalPath": "/features/revenue-forecasting"
+      },
+      {
+        "id": "pricing",
+        "title": "Pricing",
+        "originalPath": "/features/pricing"
+      },
+      {
+        "id": "pricing-calculator",
+        "title": "Pricing calculator",
+        "originalPath": "/features/pricing-calculator"
+      },
+      {
+        "id": "budget-estimator",
+        "title": "Budget estimator",
+        "originalPath": "/features/budget-estimator"
+      },
+      {
+        "id": "agent-commission-optimizer-with-performa",
+        "title": "agent commission optimizer with performa",
+        "originalPath": "/features/agent-commission-optimizer-with-performa"
+      },
+      {
+        "id": "pricing-recommendation",
+        "title": "Pricing Recommendation",
+        "originalPath": "/features/pricing-recommendation"
+      },
+      {
+        "id": "demand-forecasting-dynamic-pricing-for-s",
+        "title": "demand forecasting dynamic pricing for s",
+        "originalPath": "/features/demand-forecasting-dynamic-pricing-for-s"
+      },
+      {
+        "id": "pricing-recommender-for-underutilized",
+        "title": "pricing recommender for underutilized",
+        "originalPath": "/features/pricing-recommender-for-underutilized"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue",
+        "originalPath": "/features/revenue"
+      },
+      {
+        "id": "price-predictor",
+        "title": "Price Predictor",
+        "originalPath": "/features/price-predictor"
+      },
+      {
+        "id": "rental-price-optimizer",
+        "title": "Rental Price Optimizer",
+        "originalPath": "/features/rental-price-optimizer"
+      },
+      {
+        "id": "commission-forecasting",
+        "title": "commission forecasting",
+        "originalPath": "/features/commission-forecasting"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "duplicate-misallocation",
+      "priority-classification",
+      "repeat-failure-detection",
+      "unused-allowance-forecast",
+      "market-comps",
+      "member-matching",
+      "room-optimization",
+      "space-utilization",
+      "smart-desk-matching",
+      "mentorship-matching",
+      "predictive-maintenance",
+      "parking-utilization",
+      "storage-allocation",
+      "phone-booth-optimization",
+      "predictive-maintenance-occupancy",
+      "amenity-utilization-prediction",
+      "parking-assignment-optimizer",
+      "community-engagement-scoring",
+      "predictive-hoa-forecast",
+      "predictive-community-conflict-forecastin",
+      "parking-and-amenity-assignment-optimizer",
+      "property-analyzer",
+      "room-optimizer",
+      "style-recommender",
+      "furniture-recommender",
+      "trend-forecaster",
+      "open-house-optimizer",
+      "market-analysis",
+      "competitor-analysis",
+      "time-to-sale-prediction-tied-to",
+      "competitor-mls-comp-analysis-endpoint",
+      "forecasting",
+      "partner-matching",
+      "cohort-demand-forecast",
+      "real-estate-arbitrage-advisor-recommendi",
+      "equity-driven-redistribution-recommendin",
+      "demand-forecast-ai",
+      "partner-matching-ai",
+      "equity-analysis-ai-synthesizing-commu",
+      "occupancy",
+      "predictive",
+      "asset",
+      "intrusion",
+      "classify",
+      "severity",
+      "neighborhood-impact-analysis",
+      "occupancy-forecasting-promotions",
+      "unitsizingrecommendation-rightsize-sugges",
+      "demand-forecasting-ai",
+      "maintenance-prediction",
+      "energy-optimizer",
+      "predictive-maintenance-ai",
+      "energy-forecast",
+      "thermal-comfort-prediction",
+      "predictive-maintenance-engine",
+      "predictivemaintenance-failure-prediction",
+      "energyforecast-ai",
+      "neighborhood-insights",
+      "contract-analyzer",
+      "offer-analyzer",
+      "investment-analyzer",
+      "comparable-analysis",
+      "pipeline-forecast",
+      "comp-analysis"
+    ],
+    "ai": true,
+    "representativeId": "duplicate-misallocation",
+    "description": "One assistant for 64 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "duplicate-misallocation",
+        "title": "Duplicate & Misallocated Charge Detection",
+        "originalPath": "/features/duplicate-misallocation"
+      },
+      {
+        "id": "priority-classification",
+        "title": "Priority classification",
+        "originalPath": "/features/priority-classification"
+      },
+      {
+        "id": "repeat-failure-detection",
+        "title": "Repeat failure detection",
+        "originalPath": "/features/repeat-failure-detection"
+      },
+      {
+        "id": "unused-allowance-forecast",
+        "title": "Unused allowance forecast",
+        "originalPath": "/features/unused-allowance-forecast"
+      },
+      {
+        "id": "market-comps",
+        "title": "Market Comp Analysis",
+        "originalPath": "/features/market-comps"
+      },
+      {
+        "id": "member-matching",
+        "title": "AI Member Matching",
+        "originalPath": "/features/member-matching"
+      },
+      {
+        "id": "room-optimization",
+        "title": "AI Room Optimization",
+        "originalPath": "/features/room-optimization"
+      },
+      {
+        "id": "space-utilization",
+        "title": "AI Space Analysis",
+        "originalPath": "/features/space-utilization"
+      },
+      {
+        "id": "smart-desk-matching",
+        "title": "Smart Desk Matching",
+        "originalPath": "/features/smart-desk-matching"
+      },
+      {
+        "id": "mentorship-matching",
+        "title": "Mentorship Matching",
+        "originalPath": "/features/mentorship-matching"
+      },
+      {
+        "id": "predictive-maintenance",
+        "title": "Predictive Maintenance",
+        "originalPath": "/features/predictive-maintenance"
+      },
+      {
+        "id": "parking-utilization",
+        "title": "Parking Utilization Forecast",
+        "originalPath": "/features/parking-utilization"
+      },
+      {
+        "id": "storage-allocation",
+        "title": "Storage Allocation Optimizer",
+        "originalPath": "/features/storage-allocation"
+      },
+      {
+        "id": "phone-booth-optimization",
+        "title": "Phone Booth Optimization",
+        "originalPath": "/features/phone-booth-optimization"
+      },
+      {
+        "id": "predictive-maintenance-occupancy",
+        "title": "Predictive maintenance occupancy",
+        "originalPath": "/features/predictive-maintenance-occupancy"
+      },
+      {
+        "id": "amenity-utilization-prediction",
+        "title": "Amenity utilization prediction",
+        "originalPath": "/features/amenity-utilization-prediction"
+      },
+      {
+        "id": "parking-assignment-optimizer",
+        "title": "Parking Assignment Optimizer",
+        "originalPath": "/features/parking-assignment-optimizer"
+      },
+      {
+        "id": "community-engagement-scoring",
+        "title": "Community Engagement Scoring",
+        "originalPath": "/features/community-engagement-scoring"
+      },
+      {
+        "id": "predictive-hoa-forecast",
+        "title": "Predictive HOA Problem Forecast",
+        "originalPath": "/features/predictive-hoa-forecast"
+      },
+      {
+        "id": "predictive-community-conflict-forecastin",
+        "title": "predictive community conflict forecastin",
+        "originalPath": "/features/predictive-community-conflict-forecastin"
+      },
+      {
+        "id": "parking-and-amenity-assignment-optimizer",
+        "title": "parking and amenity assignment optimizer",
+        "originalPath": "/features/parking-and-amenity-assignment-optimizer"
+      },
+      {
+        "id": "property-analyzer",
+        "title": "Property analyzer",
+        "originalPath": "/features/property-analyzer"
+      },
+      {
+        "id": "room-optimizer",
+        "title": "Room optimizer",
+        "originalPath": "/features/room-optimizer"
+      },
+      {
+        "id": "style-recommender",
+        "title": "Style recommender",
+        "originalPath": "/features/style-recommender"
+      },
+      {
+        "id": "furniture-recommender",
+        "title": "Furniture recommender",
+        "originalPath": "/features/furniture-recommender"
+      },
+      {
+        "id": "trend-forecaster",
+        "title": "Trend forecaster",
+        "originalPath": "/features/trend-forecaster"
+      },
+      {
+        "id": "open-house-optimizer",
+        "title": "Open house optimizer",
+        "originalPath": "/features/open-house-optimizer"
+      },
+      {
+        "id": "market-analysis",
+        "title": "Market analysis",
+        "originalPath": "/features/market-analysis"
+      },
+      {
+        "id": "competitor-analysis",
+        "title": "Competitor analysis",
+        "originalPath": "/features/competitor-analysis"
+      },
+      {
+        "id": "time-to-sale-prediction-tied-to",
+        "title": "time to sale prediction tied to",
+        "originalPath": "/features/time-to-sale-prediction-tied-to"
+      },
+      {
+        "id": "competitor-mls-comp-analysis-endpoint",
+        "title": "competitor mls comp analysis endpoint",
+        "originalPath": "/features/competitor-mls-comp-analysis-endpoint"
+      },
+      {
+        "id": "forecasting",
+        "title": "AI Forecasting",
+        "originalPath": "/features/forecasting"
+      },
+      {
+        "id": "partner-matching",
+        "title": "Partner Matching",
+        "originalPath": "/features/partner-matching"
+      },
+      {
+        "id": "cohort-demand-forecast",
+        "title": "Cohort Demand Forecast",
+        "originalPath": "/features/cohort-demand-forecast"
+      },
+      {
+        "id": "real-estate-arbitrage-advisor-recommendi",
+        "title": "real estate arbitrage advisor recommendi",
+        "originalPath": "/features/real-estate-arbitrage-advisor-recommendi"
+      },
+      {
+        "id": "equity-driven-redistribution-recommendin",
+        "title": "equity driven redistribution recommendin",
+        "originalPath": "/features/equity-driven-redistribution-recommendin"
+      },
+      {
+        "id": "demand-forecast-ai",
+        "title": "demand forecast ai",
+        "originalPath": "/features/demand-forecast-ai"
+      },
+      {
+        "id": "partner-matching-ai",
+        "title": "partner matching ai",
+        "originalPath": "/features/partner-matching-ai"
+      },
+      {
+        "id": "equity-analysis-ai-synthesizing-commu",
+        "title": "equity analysis ai synthesizing commu",
+        "originalPath": "/features/equity-analysis-ai-synthesizing-commu"
+      },
+      {
+        "id": "occupancy",
+        "title": "Occupancy Prediction",
+        "originalPath": "/features/occupancy"
+      },
+      {
+        "id": "predictive",
+        "title": "AI Predictive",
+        "originalPath": "/features/predictive"
+      },
+      {
+        "id": "asset",
+        "title": "Asset Lifecycle Predict",
+        "originalPath": "/features/asset"
+      },
+      {
+        "id": "intrusion",
+        "title": "Intrusion Detect",
+        "originalPath": "/features/intrusion"
+      },
+      {
+        "id": "classify",
+        "title": "Auto Classify Permit",
+        "originalPath": "/features/classify"
+      },
+      {
+        "id": "severity",
+        "title": "Violation Severity Score",
+        "originalPath": "/features/severity"
+      },
+      {
+        "id": "neighborhood-impact-analysis",
+        "title": "neighborhood impact analysis",
+        "originalPath": "/features/neighborhood-impact-analysis"
+      },
+      {
+        "id": "occupancy-forecasting-promotions",
+        "title": "occupancy forecasting promotions",
+        "originalPath": "/features/occupancy-forecasting-promotions"
+      },
+      {
+        "id": "unitsizingrecommendation-rightsize-sugges",
+        "title": "unitsizingrecommendation rightsize sugges",
+        "originalPath": "/features/unitsizingrecommendation-rightsize-sugges"
+      },
+      {
+        "id": "demand-forecasting-ai",
+        "title": "demand forecasting ai",
+        "originalPath": "/features/demand-forecasting-ai"
+      },
+      {
+        "id": "maintenance-prediction",
+        "title": "Maintenance prediction",
+        "originalPath": "/features/maintenance-prediction"
+      },
+      {
+        "id": "energy-optimizer",
+        "title": "Energy optimizer",
+        "originalPath": "/features/energy-optimizer"
+      },
+      {
+        "id": "predictive-maintenance-ai",
+        "title": "Predictive maintenance ai",
+        "originalPath": "/features/predictive-maintenance-ai"
+      },
+      {
+        "id": "energy-forecast",
+        "title": "Energy forecast",
+        "originalPath": "/features/energy-forecast"
+      },
+      {
+        "id": "thermal-comfort-prediction",
+        "title": "thermal comfort prediction",
+        "originalPath": "/features/thermal-comfort-prediction"
+      },
+      {
+        "id": "predictive-maintenance-engine",
+        "title": "predictive maintenance engine",
+        "originalPath": "/features/predictive-maintenance-engine"
+      },
+      {
+        "id": "predictivemaintenance-failure-prediction",
+        "title": "predictivemaintenance failure prediction",
+        "originalPath": "/features/predictivemaintenance-failure-prediction"
+      },
+      {
+        "id": "energyforecast-ai",
+        "title": "energyforecast ai",
+        "originalPath": "/features/energyforecast-ai"
+      },
+      {
+        "id": "neighborhood-insights",
+        "title": "Neighborhood Insights",
+        "originalPath": "/features/neighborhood-insights"
+      },
+      {
+        "id": "contract-analyzer",
+        "title": "Contract Analyzer",
+        "originalPath": "/features/contract-analyzer"
+      },
+      {
+        "id": "offer-analyzer",
+        "title": "Offer Analyzer",
+        "originalPath": "/features/offer-analyzer"
+      },
+      {
+        "id": "investment-analyzer",
+        "title": "Investment Analyzer",
+        "originalPath": "/features/investment-analyzer"
+      },
+      {
+        "id": "comparable-analysis",
+        "title": "Comparable Market Analysis (CMA)",
+        "originalPath": "/features/comparable-analysis"
+      },
+      {
+        "id": "pipeline-forecast",
+        "title": "Pipeline Forecast",
+        "originalPath": "/features/pipeline-forecast"
+      },
+      {
+        "id": "comp-analysis",
+        "title": "comp analysis",
+        "originalPath": "/features/comp-analysis"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "budget-draw-schedule",
+      "cleaning-schedule-optimizer",
+      "appointment-planner",
+      "inspection",
+      "predictive-maintenance-scheduling",
+      "showing-scheduler"
+    ],
+    "ai": true,
+    "representativeId": "budget-draw-schedule",
+    "description": "One assistant for 6 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "budget-draw-schedule",
+        "title": "Budget draw schedule",
+        "originalPath": "/features/budget-draw-schedule"
+      },
+      {
+        "id": "cleaning-schedule-optimizer",
+        "title": "Cleaning Schedule Optimizer",
+        "originalPath": "/features/cleaning-schedule-optimizer"
+      },
+      {
+        "id": "appointment-planner",
+        "title": "Appointment planner",
+        "originalPath": "/features/appointment-planner"
+      },
+      {
+        "id": "inspection",
+        "title": "Inspection Schedule Optimize",
+        "originalPath": "/features/inspection"
+      },
+      {
+        "id": "predictive-maintenance-scheduling",
+        "title": "predictive maintenance scheduling",
+        "originalPath": "/features/predictive-maintenance-scheduling"
+      },
+      {
+        "id": "showing-scheduler",
+        "title": "Showing Scheduler",
+        "originalPath": "/features/showing-scheduler"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "reputation-score",
+      "social-media",
+      "churnprediction",
+      "lead-qualifier",
+      "predictive-lead-scoring"
+    ],
+    "ai": true,
+    "representativeId": "reputation-score",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "reputation-score",
+        "title": "Reputation Score",
+        "originalPath": "/features/reputation-score"
+      },
+      {
+        "id": "social-media",
+        "title": "Social media",
+        "originalPath": "/features/social-media"
+      },
+      {
+        "id": "churnprediction",
+        "title": "churnprediction",
+        "originalPath": "/features/churnprediction"
+      },
+      {
+        "id": "lead-qualifier",
+        "title": "Lead Qualifier",
+        "originalPath": "/features/lead-qualifier"
+      },
+      {
+        "id": "predictive-lead-scoring",
+        "title": "Predictive Lead Scoring",
+        "originalPath": "/features/predictive-lead-scoring"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "history",
+      "existing-aihistory-js-and-aipermit-js-stubs-need-r"
+    ],
+    "ai": true,
+    "representativeId": "history",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "history",
+        "title": "AI History",
+        "originalPath": "/features/history"
+      },
+      {
+        "id": "existing-aihistory-js-and-aipermit-js-stubs-need-r",
+        "title": "existing aihistory js and aipermit js stubs need r",
+        "originalPath": "/features/existing-aihistory-js-and-aipermit-js-stubs-need-r"
+      }
+    ]
+  }
+]

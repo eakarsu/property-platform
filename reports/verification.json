@@ -1,0 +1,18 @@
+{
+  "id": "property-platform",
+  "status": "passed",
+  "features": 516,
+  "editableTables": 514,
+  "minimumRows": 15,
+  "repeatSeedCreated": 0,
+  "crud": true,
+  "persistence": true,
+  "relationships": true,
+  "revisions": true,
+  "attachments": true,
+  "exports": true,
+  "mockedAI": true,
+  "originProtection": true,
+  "sourceCalculationsExecuted": 20,
+  "verifiedAt": "2026-09-07T22:05:46.695Z"
+}

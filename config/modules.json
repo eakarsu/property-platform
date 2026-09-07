@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ai-commercial-lease-cam-reconciliation",
+    "name": "Commercial lease cam reconciliation",
+    "sourceProject": "ai-commercial-lease-cam-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-facilities-maintenance-sla-credit-recovery",
+    "name": "Facilities maintenance sla credit recovery",
+    "sourceProject": "ai-facilities-maintenance-sla-credit-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-housing-choice-voucher-inspection",
+    "name": "Housing choice voucher inspection",
+    "sourceProject": "ai-housing-choice-voucher-inspection",
+    "services": []
+  },
+  {
+    "id": "ai-lihtc-compliance",
+    "name": "Lihtc compliance",
+    "sourceProject": "ai-lihtc-compliance",
+    "services": []
+  },
+  {
+    "id": "ai-property-management-vendor-sla-invoice-audit",
+    "name": "Property management vendor sla invoice audit",
+    "sourceProject": "ai-property-management-vendor-sla-invoice-audit",
+    "services": []
+  },
+  {
+    "id": "ai-real-estate-brokerage-commission-reconciliation",
+    "name": "Real estate brokerage commission reconciliation",
+    "sourceProject": "ai-real-estate-brokerage-commission-reconciliation",
+    "services": []
+  },
+  {
+    "id": "ai-tenant-improvement-allowance-recovery",
+    "name": "Tenant improvement allowance recovery",
+    "sourceProject": "ai-tenant-improvement-allowance-recovery",
+    "services": []
+  },
+  {
+    "id": "ai-title-escrow-fraud-curative",
+    "name": "Title escrow fraud curative",
+    "sourceProject": "ai-title-escrow-fraud-curative",
+    "services": []
+  },
+  {
+    "id": "ai-utility-right-of-way-acquisition",
+    "name": "Utility right of way acquisition",
+    "sourceProject": "ai-utility-right-of-way-acquisition",
+    "services": []
+  },
+  {
+    "id": "AICommercialLeaseAnalyzer",
+    "name": "Commercial lease analyzer",
+    "sourceProject": "AICommercialLeaseAnalyzer",
+    "services": []
+  },
+  {
+    "id": "AICoworkingSpaceManager",
+    "name": "Coworking space manager",
+    "sourceProject": "AICoworkingSpaceManager",
+    "services": []
+  },
+  {
+    "id": "AIHOACommunityAssociationManager",
+    "name": "Hoacommunity association manager",
+    "sourceProject": "AIHOACommunityAssociationManager",
+    "services": []
+  },
+  {
+    "id": "AIHomeInteriorStagingRealEstate",
+    "name": "Home interior staging real estate",
+    "sourceProject": "AIHomeInteriorStagingRealEstate",
+    "services": []
+  },
+  {
+    "id": "AIIdentifymonetizeunderutilized",
+    "name": "Identifymonetizeunderutilized",
+    "sourceProject": "AIIdentifymonetizeunderutilized",
+    "services": []
+  },
+  {
+    "id": "AIParkingManagementPlatform",
+    "name": "Parking management platform",
+    "sourceProject": "AIParkingManagementPlatform",
+    "services": []
+  },
+  {
+    "id": "AIPermitZoningCompliance",
+    "name": "Permit zoning compliance",
+    "sourceProject": "AIPermitZoningCompliance",
+    "services": []
+  },
+  {
+    "id": "AIPropertyValuationAgent",
+    "name": "Property valuation agent",
+    "sourceProject": "AIPropertyValuationAgent",
+    "services": []
+  },
+  {
+    "id": "AISelfStorageFacilityManager",
+    "name": "Self storage facility manager",
+    "sourceProject": "AISelfStorageFacilityManager",
+    "services": []
+  },
+  {
+    "id": "AISmartBuildingManager",
+    "name": "Smart building manager",
+    "sourceProject": "AISmartBuildingManager",
+    "services": []
+  },
+  {
+    "id": "kastle",
+    "name": "Kastle",
+    "sourceProject": "kastle",
+    "services": []
+  },
+  {
+    "id": "realEstateAgency",
+    "name": "Real estate agency",
+    "sourceProject": "realEstateAgency",
+    "services": []
+  }
+]

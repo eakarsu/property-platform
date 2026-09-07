@@ -1,0 +1,9 @@
+{
+  "app": "property-platform",
+  "features": 516,
+  "sourceApps": 21,
+  "calculatorEngines": 1,
+  "registryHash": "a6a020daef2b227d8f8e4a92ebcced94ee47d09bcbe86cda76dbf96c7eaba5cb",
+  "builtAt": "2026-09-07T22:05:45.693Z",
+  "status": "built"
+}

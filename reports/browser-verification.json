@@ -1,0 +1,11 @@
+{
+  "id": "property-platform",
+  "status": "passed",
+  "pagesVisited": 516,
+  "minimumRows": 15,
+  "browserCRUD": true,
+  "persistence": true,
+  "mobile": true,
+  "pageErrors": [],
+  "verifiedAt": "2026-09-07T14:40:16.051Z"
+}
