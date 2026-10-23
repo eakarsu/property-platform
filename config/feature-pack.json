@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-lease-ingestion",
+      "feature": "lease-ingestion",
+      "title": "Lease & Amendment Ingestion insight",
+      "focus": "Summarize Lease & Amendment Ingestion records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent lease terms, rents or legal conclusions."
+    },
+    {
+      "id": "insight-work-order-ingestion",
+      "feature": "work-order-ingestion",
+      "title": "Work order ingestion insight",
+      "focus": "Summarize Work order ingestion records: totals, status mix, field coverage and recent activity. Use only supplied records; do not invent completion, costs or SLA outcomes."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
